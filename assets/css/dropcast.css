@@ -410,7 +410,7 @@ h5.site__secondary_title {
   position: absolute;
   top: -2rem;
   left: -1.5rem;
-  z-index: 10;
+  z-index: 100;
   font-size: 3rem;
   margin: 0;
   color: #5969CE;
@@ -442,8 +442,7 @@ h5.site__secondary_title {
 }
 .episode__media:hover {
   transform-origin: 0 50%;
-  transform: perspective(1000px) rotateY(-10deg) translate3d(-3px, 0, 0);
-  z-index: 1;
+  transform: translate3d(-3px, 0, 0);
 }
 
 .episode__detail {
