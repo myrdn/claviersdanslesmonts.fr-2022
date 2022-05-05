@@ -1,0 +1,197 @@
+.episode {
+  position: relative;
+  display: flex;
+  &:nth-child(1) {
+    .episode__image {
+      background-image: url(../images/photos/edited/affiche.jpg);
+    }
+  }
+  &:nth-child(2) {
+    .episode__image {
+      background-image: url(../images/photos/edited/Ferenc-Vizi.jpg);
+    }
+  }
+  &:nth-child(3) {
+    .episode__image {
+      background-image: url(../images/photos/edited/Argentik.jpg);
+    }
+  }
+  &:nth-child(4) {
+    .episode__image {
+      background-image: url(../images/photos/edited/Tableau.jpg);
+    }
+  }
+  &:nth-child(5) {
+    .episode__image {
+      background-image: url(../images/photos/edited/Fanny-Bourrillon-Andoni-Aguirre.jpg);
+    }
+  }
+  &:nth-child(6) {
+    .episode__image {
+      background-image: url(../images/photos/edited/Arnaud-Galletier.jpg);
+    }
+  }
+  &:nth-child(7) {
+    .episode__image {
+      background-image: url(../images/photos/edited/Leviathan.jpg);
+    }
+  }
+  &:nth-child(8) {
+    .episode__image {
+      background-image: url(../images/photos/edited/kawai.jpg);
+    }
+  }
+  &:nth-child(9) {
+    .episode__image {
+      background-image: url(../images/photos/edited/chopin.jpg);
+    }
+  }
+  &:nth-child(10) {
+    .episode__image {
+      background-image: url(../images/photos/edited/sebastien.png);
+    }
+  }
+  &:nth-child(11) {
+    .episode__image {
+      background-image: url(../images/photos/edited/2021_1.png);
+    }
+  }
+
+
+
+
+  &:hover {
+    .episode__detail:before {
+      width: 100%;
+    }
+    &:nth-child(1) {
+      .episode__image {
+        background-image: url(../images/photos/original/affiche.jpg);
+      }
+    }
+    &:nth-child(2) {
+      .episode__image {
+        background-image: url(../images/photos/original/Ferenc-Vizi.jpg);
+      }
+    }
+    &:nth-child(3) {
+      .episode__image {
+        background-image: url(../images/photos/original/Argentik.jpg);
+      }
+    }
+    &:nth-child(4) {
+      .episode__image {
+        background-image: url(../images/photos/original/Tableau.jpg);
+      }
+    }
+    &:nth-child(5) {
+      .episode__image {
+        background-image: url(../images/photos/original/Fanny-Bourrillon-Andoni-Aguirre.jpg);
+      }
+    }
+    &:nth-child(6) {
+      .episode__image {
+        background-image: url(../images/photos/original/Arnaud-Galletier.jpg);
+      }
+    }
+    &:nth-child(7) {
+      .episode__image {
+        background-image: url(../images/photos/original/Leviathan.jpg);
+      }
+    }
+    &:nth-child(8) {
+      .episode__image {
+        background-image: url(../images/photos/original/kawai.jpg);
+      }
+    }
+    &:nth-child(9) {
+      .episode__image {
+        background-image: url(../images/photos/original/chopin.jpg);
+      }
+    }
+    &:nth-child(10) {
+      .episode__image {
+        background-image: url(../images/photos/original/sebastien.png);
+      }
+    }
+    &:nth-child(11) {
+      .episode__image {
+        background-image: url(../images/photos/original/2021_1.png);
+      }
+    }
+  }
+}
+
+.episode__number {
+  display: none;
+  position: absolute;
+  top: -2rem;
+  left: -1.5rem;
+  z-index: 1;
+  font-size: 3rem;
+  margin: 0;
+  color: $purple;
+}
+
+.episode__image {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  transition: all .1s ease-in-out;
+  display: block;
+}
+
+.episode__media {
+  position: relative;
+  width: 30%;
+  transition: .2s ease-out;
+  &:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    background-image: url('../images/pixel-corner.svg');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+  }
+  &:hover {
+    transform-origin: 0 50%;
+    transform: perspective(1000px) rotateY(-10deg) translate3d(-3px,0,0);
+  }
+}
+
+.episode__detail {
+  width: 70%;
+  padding: 0 1rem;
+  position: relative;
+  transition: width .3s ease-in-out;
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    content: '';
+    background-color: $lightGray;
+    z-index: -1;
+  }
+}
+
+.episode__title h3{
+  font-size: 1.6rem;
+  margin: 1rem 0 .3rem 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: $gray;
+  &:hover {
+    color: $purple;
+  }
+}
+
+.episode__description {
+  margin-top: 0;
+  font-size: 1.1rem;
+  font-weight: 100;
+  color: $bodyText;
+}
