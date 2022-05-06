@@ -401,7 +401,7 @@ h5.site__secondary_title {
   background-image: image-set(url("../images/photos/original/sebastien.webp"), url("../images/photos/original/sebastien.png"));
 }
 .episode:hover:nth-child(11) .episode__image {
-  background-image: image-set(url("../images/photos/originial/2021_1.webp") 1x, url("../images/photos/originial/2021_1.png") 1x);
+  background-image: image-set(url("../images/photos/original/2021_1.webp") 1x, url("../images/photos/original/2021_1.png") 1x);
 }
 
 .episode__number {
