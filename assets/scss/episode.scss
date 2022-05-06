@@ -111,7 +111,9 @@
     }
     &:nth-child(10) {
       .episode__image {
-        background-image: url(../images/photos/original/sebastien.png);
+        background-image: image-set(
+	  url("../images/photos/original/sebastien.webp"),
+	  url("../images/photos/original/sebastien.png"));
       }
     }
     &:nth-child(11) {
