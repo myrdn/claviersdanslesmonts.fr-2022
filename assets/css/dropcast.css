@@ -733,6 +733,7 @@ h5.site__secondary_title {
   font-family: "Rufina";
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url("../fonts/rufina-v13-latin-regular.eot");
   /* IE9 Compat Modes */
   src: local(""), url("../fonts/rufina-v13-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/rufina-v13-latin-regular.woff2") format("woff2"), url("../fonts/rufina-v13-latin-regular.woff") format("woff"), url("../fonts/rufina-v13-latin-regular.ttf") format("truetype"), url("../fonts/rufina-v13-latin-regular.svg#Rufina") format("svg");
@@ -743,6 +744,7 @@ h5.site__secondary_title {
   font-family: "Rufina";
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url("../fonts/rufina-v13-latin-700.eot");
   /* IE9 Compat Modes */
   src: local(""), url("../fonts/rufina-v13-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/rufina-v13-latin-700.woff2") format("woff2"), url("../fonts/rufina-v13-latin-700.woff") format("woff"), url("../fonts/rufina-v13-latin-700.ttf") format("truetype"), url("../fonts/rufina-v13-latin-700.svg#Rufina") format("svg");
@@ -753,6 +755,7 @@ h5.site__secondary_title {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 200;
+  font-display: swap;
   src: url("../fonts/source-sans-pro-v21-latin-200.eot");
   /* IE9 Compat Modes */
   src: local(""), url("../fonts/source-sans-pro-v21-latin-200.eot?#iefix") format("embedded-opentype"), url("../fonts/source-sans-pro-v21-latin-200.woff2") format("woff2"), url("../fonts/source-sans-pro-v21-latin-200.woff") format("woff"), url("../fonts/source-sans-pro-v21-latin-200.ttf") format("truetype"), url("../fonts/source-sans-pro-v21-latin-200.svg#SourceSansPro") format("svg");
@@ -763,6 +766,7 @@ h5.site__secondary_title {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 300;
+  font-display: swap;
   src: url("../fonts/source-sans-pro-v21-latin-300.eot");
   /* IE9 Compat Modes */
   src: local(""), url("../fonts/source-sans-pro-v21-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/source-sans-pro-v21-latin-300.woff2") format("woff2"), url("../fonts/source-sans-pro-v21-latin-300.woff") format("woff"), url("../fonts/source-sans-pro-v21-latin-300.ttf") format("truetype"), url("../fonts/source-sans-pro-v21-latin-300.svg#SourceSansPro") format("svg");
@@ -773,6 +777,7 @@ h5.site__secondary_title {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url("../fonts/source-sans-pro-v21-latin-regular.eot");
   /* IE9 Compat Modes */
   src: local(""), url("../fonts/source-sans-pro-v21-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/source-sans-pro-v21-latin-regular.woff2") format("woff2"), url("../fonts/source-sans-pro-v21-latin-regular.woff") format("woff"), url("../fonts/source-sans-pro-v21-latin-regular.ttf") format("truetype"), url("../fonts/source-sans-pro-v21-latin-regular.svg#SourceSansPro") format("svg");
@@ -783,6 +788,7 @@ h5.site__secondary_title {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 600;
+  font-display: swap;
   src: url("../fonts/source-sans-pro-v21-latin-600.eot");
   /* IE9 Compat Modes */
   src: local(""), url("../fonts/source-sans-pro-v21-latin-600.eot?#iefix") format("embedded-opentype"), url("../fonts/source-sans-pro-v21-latin-600.woff2") format("woff2"), url("../fonts/source-sans-pro-v21-latin-600.woff") format("woff"), url("../fonts/source-sans-pro-v21-latin-600.ttf") format("truetype"), url("../fonts/source-sans-pro-v21-latin-600.svg#SourceSansPro") format("svg");
@@ -793,6 +799,7 @@ h5.site__secondary_title {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url("../fonts/source-sans-pro-v21-latin-700.eot");
   /* IE9 Compat Modes */
   src: local(""), url("../fonts/source-sans-pro-v21-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/source-sans-pro-v21-latin-700.woff2") format("woff2"), url("../fonts/source-sans-pro-v21-latin-700.woff") format("woff"), url("../fonts/source-sans-pro-v21-latin-700.ttf") format("truetype"), url("../fonts/source-sans-pro-v21-latin-700.svg#SourceSansPro") format("svg");
