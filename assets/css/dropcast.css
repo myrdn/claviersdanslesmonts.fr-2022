@@ -335,7 +335,7 @@ h5.site__secondary_title {
   display: flex;
 }
 .episode:nth-child(1) .episode__image {
-  background-image: url(../images/photos/edited/affiche.jpg);
+  background-image: url(../images/photos/original/affiche.jpg);
 }
 .episode:nth-child(2) .episode__image {
   background-image: url(../images/photos/edited/Ferenc-Vizi.jpg);
