@@ -165,7 +165,6 @@ nav > * {
 }
 
 .accessibility {
-  position: absolute;
   width: 100%;
 }
 .accessibility #a42-ac-button {
@@ -526,6 +525,7 @@ h5.site__secondary_title {
   .accessibility {
     background-color: #1C1F2A;
     padding-left: 110px;
+    position: absolute;
   }
 
   body {
