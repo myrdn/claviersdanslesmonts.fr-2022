@@ -48,9 +48,9 @@
   }
   &:nth-child(10) {
     .episode__image {
-      background-image: image-set(
-	url("../images/photos/edited/sebastien.webp"),
-	url("../images/photos/edited/sebastien.png"));
+      background-image: -webkit-image-set(
+	url("../images/photos/edited/sebastien.webp") 1x,
+	url("../images/photos/edited/sebastien.png") 1x);
     }
   }
   &:nth-child(11) {

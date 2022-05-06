@@ -362,7 +362,7 @@ h5.site__secondary_title {
   background-image: url(../images/photos/edited/chopin.jpg);
 }
 .episode:nth-child(10) .episode__image {
-  background-image: image-set(url("../images/photos/edited/sebastien.webp"), url("../images/photos/edited/sebastien.png"));
+  background-image: -webkit-image-set(url("../images/photos/edited/sebastien.webp") 1x, url("../images/photos/edited/sebastien.png") 1x);
 }
 .episode:nth-child(11) .episode__image {
   background-image: url(../images/photos/edited/2021_1.png);
