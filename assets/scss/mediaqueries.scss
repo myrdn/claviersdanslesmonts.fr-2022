@@ -103,6 +103,15 @@
     display: block;
   }
 
+.site__secondary_title {
+  display: none;
+  color: black;
+  margin: 2rem 5rem 0 5rem;
+  font-size: 1.2rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
   /* nav */
   .nav__list {
     transform: rotate(90deg);

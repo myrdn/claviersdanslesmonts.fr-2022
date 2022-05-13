@@ -1,4 +1,4 @@
- .sr-only {
+sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -94,9 +94,8 @@
 }
 
 .site__secondary_title {
-  display: none;
-  color: black;
-  margin: 2rem 5rem 0 5rem;
+  display: block;
+  color: white;
   font-size: 1.2rem;
   font-family: 'Source Sans Pro', sans-serif;
 }
